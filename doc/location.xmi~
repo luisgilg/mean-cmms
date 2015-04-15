@@ -1,0 +1,640 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Sun Apr 12 11:01:55 ART 2015'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:000000000000099D'
+      name = 'CMMS' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+      isAbstract = 'false'>
+      <UML:Namespace.ownedElement>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A0'
+          name = 'Base' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'true' isActive = 'false'>
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A1'
+              name = 'creationDate' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+              changeability = 'changeable' targetScope = 'instance'>
+              <UML:StructuralFeature.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A2'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A3'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:StructuralFeature.multiplicity>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A4'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>Date.now</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--47cd102e:14c904147ee:-8000:00000000000010C9'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+              <UML:StructuralFeature.type>
+                <UML:DataType href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1-49fad179:14c8fbf042e:-8000:00000000000014B1'/>
+              </UML:StructuralFeature.type>
+            </UML:Attribute>
+            <UML:Attribute xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A5'
+              name = 'updateDate' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+              changeability = 'changeable' targetScope = 'instance'>
+              <UML:StructuralFeature.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A6'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A7'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:StructuralFeature.multiplicity>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A8'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>Date.now</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--47cd102e:14c904147ee:-8000:00000000000010C9'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+              <UML:StructuralFeature.type>
+                <UML:DataType href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1-49fad179:14c8fbf042e:-8000:00000000000014B1'/>
+              </UML:StructuralFeature.type>
+            </UML:Attribute>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A9'
+          name = 'DataComponent' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'true' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009AA'/>
+          </UML:GeneralizableElement.generalization>
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009AB'
+              name = 'code' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+              changeability = 'changeable' targetScope = 'instance'>
+              <UML:StructuralFeature.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009AC'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009AD'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:StructuralFeature.multiplicity>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B1'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1-49fad179:14c8fbf042e:-8000:000000000000255D'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B5'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>1</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--47cd102e:14c904147ee:-8000:00000000000010E2'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+              <UML:StructuralFeature.type>
+                <UML:DataType href = 'http://argouml.org/profiles/uml14/default-uml14.xmi#-84-17--56-5-43645a83:11466542d86:-8000:000000000000087E'/>
+              </UML:StructuralFeature.type>
+            </UML:Attribute>
+            <UML:Attribute xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009AE'
+              name = 'name' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+              changeability = 'changeable' targetScope = 'instance'>
+              <UML:StructuralFeature.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009AF'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B0'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:StructuralFeature.multiplicity>
+              <UML:ModelElement.taggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B2'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue></UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1-49fad179:14c8fbf042e:-8000:000000000000255D'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B3'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>3</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--47cd102e:14c904147ee:-8000:00000000000010E2'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+                <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B4'
+                  isSpecification = 'false'>
+                  <UML:TaggedValue.dataValue>256</UML:TaggedValue.dataValue>
+                  <UML:TaggedValue.type>
+                    <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--47cd102e:14c904147ee:-8000:00000000000010DF'/>
+                  </UML:TaggedValue.type>
+                </UML:TaggedValue>
+              </UML:ModelElement.taggedValue>
+              <UML:StructuralFeature.type>
+                <UML:DataType href = 'http://argouml.org/profiles/uml14/default-uml14.xmi#-84-17--56-5-43645a83:11466542d86:-8000:000000000000087E'/>
+              </UML:StructuralFeature.type>
+            </UML:Attribute>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009AA'
+          isSpecification = 'false'>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A9'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A0'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C2'
+          name = 'Category' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0D'
+              isSpecification = 'false'>
+              <UML:TaggedValue.dataValue>categories</UML:TaggedValue.dataValue>
+              <UML:TaggedValue.type>
+                <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--2f0cedd:14c9b2624bf:-8000:0000000000001190'/>
+              </UML:TaggedValue.type>
+            </UML:TaggedValue>
+            <UML:TaggedValue xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0E'
+              isSpecification = 'false'>
+              <UML:TaggedValue.dataValue>_type</UML:TaggedValue.dataValue>
+              <UML:TaggedValue.type>
+                <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--2f0cedd:14c9b2624bf:-8000:0000000000001193'/>
+              </UML:TaggedValue.type>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C3'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0F'
+          name = 'UseLocation' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:ModelElement.taggedValue>
+            <UML:TaggedValue xmi.id = '127-0-1-1-20c70341:14cadd2d2dd:-8000:0000000000000BFA'
+              isSpecification = 'false'>
+              <UML:TaggedValue.dataValue>locations</UML:TaggedValue.dataValue>
+              <UML:TaggedValue.type>
+                <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--2f0cedd:14c9b2624bf:-8000:0000000000001190'/>
+              </UML:TaggedValue.type>
+            </UML:TaggedValue>
+            <UML:TaggedValue xmi.id = '127-0-1-1-20c70341:14cadd2d2dd:-8000:0000000000000BFB'
+              isSpecification = 'false'>
+              <UML:TaggedValue.dataValue>_type</UML:TaggedValue.dataValue>
+              <UML:TaggedValue.type>
+                <UML:TagDefinition href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--2f0cedd:14c9b2624bf:-8000:0000000000001193'/>
+              </UML:TaggedValue.type>
+            </UML:TaggedValue>
+          </UML:ModelElement.taggedValue>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A10'/>
+          </UML:GeneralizableElement.generalization>
+          <UML:Classifier.feature>
+            <UML:Attribute xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A14'
+              name = 'codeName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+              changeability = 'changeable' targetScope = 'instance'>
+              <UML:StructuralFeature.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A15'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A16'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:StructuralFeature.multiplicity>
+              <UML:StructuralFeature.type>
+                <UML:DataType href = 'http://argouml.org/profiles/uml14/default-uml14.xmi#-84-17--56-5-43645a83:11466542d86:-8000:000000000000087E'/>
+              </UML:StructuralFeature.type>
+            </UML:Attribute>
+          </UML:Classifier.feature>
+        </UML:Class>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C3'
+          isSpecification = 'false'>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C2'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A9'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C5'
+          isSpecification = 'false'>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--363b9f39:14c9b202983:-8000:0000000000000E2B'/>
+          </UML:ModelElement.stereotype>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C4'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C2'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C7'
+          isSpecification = 'false'>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--363b9f39:14c9b202983:-8000:0000000000000E2B'/>
+          </UML:ModelElement.stereotype>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C6'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C2'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DD'
+          isSpecification = 'false'>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--363b9f39:14c9b202983:-8000:0000000000000E2B'/>
+          </UML:ModelElement.stereotype>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DC'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C2'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C4'
+          name = 'BusinessCategory' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C5'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C6'
+          name = 'UnitCategory' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C7'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DA'
+          name = 'Unit' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A13'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009BD'
+          name = 'Ornganization' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A11'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DC'
+          name = 'InstallationCategory' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DD'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009CB'
+          name = 'Installation' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A12'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009EF'
+          name = 'IndsutryCategory' visibility = 'public' isSpecification = 'false'
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F0'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Class xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B6'
+          name = 'Country' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+          <UML:GeneralizableElement.generalization>
+            <UML:Generalization xmi.idref = '127-0-1-1-20c70341:14cadd2d2dd:-8000:0000000000000BFC'/>
+          </UML:GeneralizableElement.generalization>
+        </UML:Class>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F0'
+          isSpecification = 'false'>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--363b9f39:14c9b202983:-8000:0000000000000E2B'/>
+          </UML:ModelElement.stereotype>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009EF'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C2'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A10'
+          isSpecification = 'false'>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0F'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009A9'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A11'
+          isSpecification = 'false'>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--363b9f39:14c9b202983:-8000:0000000000000E2B'/>
+          </UML:ModelElement.stereotype>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009BD'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0F'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A12'
+          isSpecification = 'false'>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--363b9f39:14c9b202983:-8000:0000000000000E2B'/>
+          </UML:ModelElement.stereotype>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009CB'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0F'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A13'
+          isSpecification = 'false'>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype href = 'http://argouml.org/user-profiles/Mongoose.xmi#127-0-1-1--363b9f39:14c9b202983:-8000:0000000000000E2B'/>
+          </UML:ModelElement.stereotype>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DA'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0F'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Generalization xmi.id = '127-0-1-1-20c70341:14cadd2d2dd:-8000:0000000000000BFC'
+          isSpecification = 'false'>
+          <UML:Generalization.child>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B6'/>
+          </UML:Generalization.child>
+          <UML:Generalization.parent>
+            <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0F'/>
+          </UML:Generalization.parent>
+        </UML:Generalization>
+        <UML:Association xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DE'
+          name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DF'
+              name = 'category' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
+              changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009E2'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009E1'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009CB'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009E0'
+              name = 'installations' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009E7'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009E6'
+                      lower = '0' upper = '-1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DC'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009E8'
+          name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009E9'
+              name = 'business' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
+              changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009EC'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009EB'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009BD'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009EA'
+              name = 'owners' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009EE'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009ED'
+                      lower = '0' upper = '-1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C4'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F1'
+          name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F2'
+              name = 'Industry' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
+              changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F5'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F4'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009BD'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F3'
+              name = 'owners' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F7'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F6'
+                      lower = '0' upper = '-1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009EF'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F8'
+          name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009F9'
+              name = 'category' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'composite' targetScope = 'instance'
+              changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009FE'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009FD'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DA'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009FA'
+              name = 'units' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009FC'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009FB'
+                      lower = '0' upper = '-1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009C6'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009FF'
+          name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A00'
+              name = 'installations' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
+              changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A03'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A02'
+                      lower = '0' upper = '-1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009BD'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A01'
+              name = 'owner' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A05'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A04'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009CB'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A06'
+          name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A07'
+              name = 'units' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
+              changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0C'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0B'
+                      lower = '0' upper = '-1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009CB'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A08'
+              name = 'installation' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A0A'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:0000000000000A09'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009DA'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+        <UML:Association xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009D3'
+          name = 'InstallationLocation' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false'>
+          <UML:Association.connection>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009D4'
+              name = 'location' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'aggregate' targetScope = 'instance'
+              changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009D7'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009D6'
+                      lower = '1' upper = '1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009CB'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+            <UML:AssociationEnd xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009D5'
+              name = 'installations' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+              ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+              <UML:AssociationEnd.multiplicity>
+                <UML:Multiplicity xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009D9'>
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009D8'
+                      lower = '0' upper = '-1'/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationEnd.multiplicity>
+              <UML:AssociationEnd.participant>
+                <UML:Class xmi.idref = '127-0-1-1-16efe0c8:14ca45f5a6d:-8000:00000000000009B6'/>
+              </UML:AssociationEnd.participant>
+            </UML:AssociationEnd>
+          </UML:Association.connection>
+        </UML:Association>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </XMI.content>
+</XMI>

@@ -1,0 +1,75 @@
+
+  <div class="container">
+  <div >
+	  <h3 class="h3" >{{title}} 	
+	  </h3>	  
+  </div>
+
+  
+    <table class="table table-striped table-hover">
+		<thead>
+		<tr>
+			<th class="col-xs-2" style="font-weight: normal;">
+
+				<span class="input-group input-group-sm" role="group">
+		      		
+		      		<input type="text" class="form-control" placeholder="Search for..." ng-keypress="searchKeypress($event,searchInput)" ng-model="searchInput"/>
+		      		<span class="input-group-btn">
+		        		<button type="button" class="btn btn-default" aria-label="search" ng-click="search(searchInput)">
+		        		<span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+		      		</span>
+		   		</span>
+
+	   		</th>
+
+			<th ng-click="sort('code')">Code <i class="glyphicon glyphicon-chevron-down" ng-show="orderBy=='code asc'"></i><i class="glyphicon glyphicon-chevron-up" ng-show="orderBy=='code desc'"></i>
+			</th>
+			<th ng-click="sort('codeName')">Code Name<i class="glyphicon glyphicon-chevron-down" ng-show="orderBy=='codeName asc'"></i><i class="glyphicon glyphicon-chevron-up" ng-show="orderBy=='codeName desc'"></i></th>
+			
+			<th ng-click="sort('name')">Title<i class="glyphicon glyphicon-chevron-down" ng-show="orderBy=='name asc'"></i><i class="glyphicon glyphicon-chevron-up" ng-show="orderBy=='name desc'"></i></th>
+
+			<th ng-show = "showField(typeLabel,'business')" ng-click="sort('business')">Business<i class="glyphicon glyphicon-chevron-down" ng-show="orderBy=='business asc'"></i><i class="glyphicon glyphicon-chevron-up" ng-show="orderBy=='business desc'"></i></th>
+
+			<th ng-show = "showField(typeLabel,'industry')" ng-click="sort('industry')">Industry<i class="glyphicon glyphicon-chevron-down" ng-show="orderBy=='industry asc'"></i><i class="glyphicon glyphicon-chevron-up" ng-show="orderBy=='industry desc'"></i></th>
+			
+		</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="item in items">
+				<td>
+				<div class="btn-group btn-group-sm" aria-label="Actions" role="group">
+					<button type="button" aria-label="Edit" class="btn btn-default" ng-click="edit(item)">
+						<i class="glyphicon glyphicon-pencil" aria-hidden="true"> Edit</i> 
+					</button>
+					<button type="button" aria-label="Delete" class="btn btn-danger" ng-click="delete(item)">
+						<i class="glyphicon glyphicon-remove" aria-hidden="true"> Delete</i> 
+					</button>
+				<div>
+				</td>
+				<td>{{item.code}}</td>
+				<td>{{item.codeName}}</td>
+				<td>{{item.name}}</td>
+				<td ng-show = "typeLabel=='organization'" title="{{item.business.code}} # {{item.business.name}}" >{{item.business.name}}</td>
+				<td ng-show = "typeLabel=='organization'" title="{{item.industry.code}} # {{item.industry.name}}">{{item.industry.name}}</td>
+				
+			</tr>
+		</tbody>
+	</table>
+
+	<div class="row">
+		<div class="col-sm-2">
+			<button ng-click="create()" class="btn btn-default btn-sm" title="Create new {{typeLabel}}">
+				<i class="glyphicon glyphicon-plus" aria-hidden="true"></i> Create new
+			</button>
+		</div>
+	<div class="col-sm-9 text-center">
+		<pagination total-items="totalItems" ng-model="currentPage" 
+			max-size="maxSize" class="pagination-sm" boundary-links="true" 
+			rotate="false" num-pages="numPages" items-per-page="pageSize" ng-change="pageChanged()" style="margin-top:0px" >
+		</pagination>
+	</div>
+	
+	
+	</div>
+  </div>
+

@@ -1,0 +1,32 @@
+<div class="container">
+  <h3 class="h3" >{{title}}</h3>
+  <form name="form" class="container form-horizontal" role="form">
+  <fieldset>
+	<div class="form-group" >
+	<div class="col-sm-2">
+	    <label class="control-label" for="codeInput" id='codeLabel'>Code</label>
+	</div>
+	    <div class="col-sm-6">
+	        <input class="form-control" aria-describedby='codeLabel' placeholder="Write a {{typeLabel}} code" type="text" id="codeInput" ng-model="item.code" ng-minlength=2 ng-maxlength=20 required />
+	    </div>
+	</div>
+	
+	<div class="form-group" >
+	    <div class="col-sm-2">
+	    <label class="control-label" for="nameInput" id='nameLabel'>Title</label>
+	   	</div>
+	    <div class="col-sm-6">
+	        <input class="form-control" aria-describedby='nameLabel' placeholder="Write a {{typeLabel}} name" type="text" id="nameInput" ng-model="item.name" ng-minlength=2 ng-maxlength=254 required/>
+		</div>
+	</div>
+	
+	<div class="btn-group" role="group" aria-label="Actions">
+	    
+	        <button type="button" ng-click="cancel()" aria-label="Cancel" class="btn btn-default">Cancel</button>
+	        <button ng-disabled="form.$invalid" type="submit" aria-label="Done" ng-click="done(item)" class="btn btn-primary">
+			<i class="glyphicon glyphicon-ok" aria-hidden="true"></i> Done</a>
+	    
+	</div>
+	</fieldset>
+  </form>
+</div>
