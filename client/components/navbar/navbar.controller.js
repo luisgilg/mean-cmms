@@ -32,6 +32,14 @@ angular.module('cmmsApp')
     {
       'title':'Installation category',
       'link':'/categories/installation'
+    },
+    {
+      'title':'Charts',
+      'link':'/charts'
+    },
+    {
+      'title':'Monitor OS',
+      'link':'/monitorOS'
     }];
 
     $scope.isActive = function(route) {

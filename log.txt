@@ -1,0 +1,92 @@
+
+> kerberos@0.0.9 install /home/luisgil/MeanProjects/cmms/node_modules/connect-mongo/node_modules/mongodb/node_modules/kerberos
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/connect-mongo/node_modules/mongodb/node_modules/kerberos/build'
+  CXX(target) Release/obj.target/kerberos/lib/kerberos.o
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/connect-mongo/node_modules/mongodb/node_modules/kerberos/build'
+
+> kerberos@0.0.9 install /home/luisgil/MeanProjects/cmms/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build'
+  CXX(target) Release/obj.target/kerberos/lib/kerberos.o
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/build'
+
+> bson@0.2.21 install /home/luisgil/MeanProjects/cmms/node_modules/connect-mongo/node_modules/mongodb/node_modules/bson
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/connect-mongo/node_modules/mongodb/node_modules/bson/build'
+  CXX(target) Release/obj.target/bson/ext/bson.o
+  SOLINK_MODULE(target) Release/obj.target/bson.node
+  SOLINK_MODULE(target) Release/obj.target/bson.node: Finished
+  COPY Release/bson.node
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/connect-mongo/node_modules/mongodb/node_modules/bson/build'
+
+> bson@0.2.21 install /home/luisgil/MeanProjects/cmms/node_modules/mongoose/node_modules/mongodb/node_modules/bson
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build'
+  CXX(target) Release/obj.target/bson/ext/bson.o
+  SOLINK_MODULE(target) Release/obj.target/bson.node
+  SOLINK_MODULE(target) Release/obj.target/bson.node: Finished
+  COPY Release/bson.node
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build'
+
+> ws@0.4.32 install /home/luisgil/MeanProjects/cmms/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
+  COPY Release/bufferutil.node
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
+  COPY Release/validation.node
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build'
+
+> ws@0.4.32 install /home/luisgil/MeanProjects/cmms/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/ws/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
+  COPY Release/bufferutil.node
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
+  COPY Release/validation.node
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/ws/build'
+
+> v8-debug@0.4.2 install /home/luisgil/MeanProjects/cmms/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/v8-debug
+> node-pre-gyp install --fallback-to-build
+
+[v8-debug] Success: "/home/luisgil/MeanProjects/cmms/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/v8-debug/build/debug/v0.4.2/node-v14-linux-x64/debug.node" is installed via remote
+
+> v8-profiler@5.2.4 install /home/luisgil/MeanProjects/cmms/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/v8-profiler
+> node-pre-gyp install --fallback-to-build
+
+[v8-profiler] Success: "/home/luisgil/MeanProjects/cmms/node_modules/grunt-node-inspector/node_modules/node-inspector/node_modules/v8-profiler/build/profiler/v5.2.4/node-v14-linux-x64/profiler.node" is installed via remote
+
+> bufferutil@1.0.1 install /home/luisgil/MeanProjects/cmms/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/bufferutil
+> node-gyp rebuild
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/bufferutil/build'
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node
+  SOLINK_MODULE(target) Release/obj.target/bufferutil.node: Finished
+  COPY Release/bufferutil.node
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/bufferutil/build'
+
+> utf-8-validate@1.0.1 install /home/luisgil/MeanProjects/cmms/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/utf-8-validate
+> node-gyp rebuild
+
+make: Entering directory `/home/luisgil/MeanProjects/cmms/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/utf-8-validate/build'
+  CXX(target) Release/obj.target/validation/src/validation.o
+  SOLINK_MODULE(target) Release/obj.target/validation.node
+  SOLINK_MODULE(target) Release/obj.target/validation.node: Finished
+  COPY Release/validation.node
+make: Leaving directory `/home/luisgil/MeanProjects/cmms/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/node_modules/ws/node_modules/utf-8-validate/build'

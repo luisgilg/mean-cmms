@@ -1,0 +1,38 @@
+<!-- <div class="panel panel-default tarjetaOs-panel">
+	<div class="panel-heading tarjetaOs-heading">
+		<span class="panel-title tarjetaOs-title">{{data.title}}</span>
+	</div>
+	<div class="panel-body tarjetaOs-body">
+		<ul class="list-group tarjetaOs-list">
+			<li class="list-group-item tarjetaOs-max">
+				{{data.max.title}}
+				<span class="badge">{{data.max.value}}</span>
+			</li>
+			<li class="list-group-item tarjetaOs-min">
+				{{data.min.title}}
+				<span class="badge">{{data.min.value}}</span>
+			</li>
+		</ul>	
+	</div>
+</div> -->
+
+
+<div class="panel panel-default tarjetaOs-panel">
+	
+	
+		<ul class="list-group tarjetaOs-list">
+			<li class="list-group-item tarjetaOs-title">
+				<input class="text-rigth" type="checkbox" ng-change = "onChange(data)" ng-model="data.selected" />
+				<span class="list-group-item-heading h4">{{data.title}}</span>
+			</li>
+			<li class="list-group-item tarjetaOs-max" ng-show='data.selected'>
+				{{data.max.title}}
+				<span class="badge">{{data.max.value}}</span>
+			</li>
+			<li class="list-group-item tarjetaOs-min"  ng-show='data.selected'>
+				{{data.min.title}}
+				<span class="badge badge-success">{{data.min.value}}</span>
+			</li>
+		</ul>	
+	
+</div>

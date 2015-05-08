@@ -21,10 +21,16 @@
     <link rel="stylesheet" href="app/app.css">
       <!-- injector:css -->
       <link rel="stylesheet" href="app/app.css">
+      <link rel="stylesheet" href="app/charts/charts.css">
       <link rel="stylesheet" href="app/main/main.css">
+      <link rel="stylesheet" href="app/monitorOS/monitorOS.css">
+      <link rel="stylesheet" href="app/monitorObraSocial/monitorObraSocial.css">
+      <link rel="stylesheet" href="app/tarjetaOs/tarjetaOs.css">
       <link rel="stylesheet" href="components/modal/modal.css">
       <!-- endinjector -->
     <!-- endbuild -->
+
+
   </head>
   <body ng-app="cmmsApp">
     <!--[if lt IE 7]>
@@ -64,12 +70,19 @@
       <!-- endbower -->
     <!-- endbuild -->
 
+
+
         <!-- build:js({.tmp,client}) app/app.js -->
         <script src="app/app.js"></script>
+
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        
           <!-- injector:js -->
           <script src="app/categories/categories.controller.js"></script>
           <script src="app/categories/categories.js"></script>
           <script src="app/categories/categories.service.js"></script>
+          <script src="app/charts/charts.controller.js"></script>
+          <script src="app/charts/charts.js"></script>
           <script src="app/errors/404/404.controller.js"></script>
           <script src="app/errors/404/404.js"></script>
           <script src="app/errors/500/500.controller.js"></script>
@@ -79,10 +92,18 @@
           <script src="app/location/location.service.js"></script>
           <script src="app/main/main.controller.js"></script>
           <script src="app/main/main.js"></script>
+          <script src="app/monitorOS/monitorOS.controller.js"></script>
+          <script src="app/monitorOS/monitorOS.js"></script>
+          <script src="app/monitorObraSocial/monitorObraSocial.controller.js"></script>
+          <script src="app/monitorObraSocial/monitorObraSocial.js"></script>
           <script src="app/sosvos.js"></script>
+          <script src="app/tarjetaOs/tarjetaOs.directive.js"></script>
           <script src="components/modal/modal.service.js"></script>
           <script src="components/navbar/navbar.controller.js"></script>
           <!-- endinjector -->
         <!-- endbuild -->
+
+
+
 </body>
 </html>
